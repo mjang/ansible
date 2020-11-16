@@ -2,7 +2,7 @@
 Installation Guide
 ******************
 
-Welcome to the Ansible Installation Guide!
+Welcome to the `ansible-core` Installation Guide!
 
 
 .. toctree::
@@ -10,4 +10,3 @@ Welcome to the Ansible Installation Guide!
 
    intro_installation
    intro_configuration
-
