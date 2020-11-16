@@ -6,8 +6,6 @@ Ansible Collections Documentation
 
 The Ansible package includes `ansible-core`. This documentation covers the collections within Ansible.
 
-For general user guide and developer guide material, see  `https://docs.ansible.com/ansible/latest/index.html>`_
-
 Ansible releases a new major release of Ansible approximately three to four times per year. The core application evolves somewhat conservatively, valuing simplicity in language design and setup. Contributors develop and change modules and plugins, hosted in collections since version 2.10, much more quickly.
 
 .. toctree::
@@ -17,6 +15,12 @@ Ansible releases a new major release of Ansible approximately three to four time
    installation_guide/index
    porting_guides/porting_guides
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Using and Developing Ansible
+
+   general_info
+   
 .. toctree::
    :maxdepth: 2
    :caption: Using Collections
