@@ -20,7 +20,7 @@ Ansible releases a new major release of Ansible approximately three to four time
    :caption: Using and Developing Ansible
 
    general_info
-   
+
 .. toctree::
    :maxdepth: 2
    :caption: Using Collections
@@ -32,15 +32,6 @@ Ansible releases a new major release of Ansible approximately three to four time
    :caption: Developing Collections
 
    dev_guide/developing_collections
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :caption: Collection Scenarios
-
-   scenario_guides/cloud_guides
-   scenario_guides/network_guides
-   scenario_guides/virt_guides
 
 .. toctree::
    :maxdepth: 2
@@ -59,10 +50,18 @@ Ansible releases a new major release of Ansible approximately three to four time
 .. toctree::
    :maxdepth: 2
    :caption: Collections Index
+
    collections/index
 
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :caption: Collection Scenarios
 
-
+   scenario_guides/cloud_guides
+   scenario_guides/network_guides
+   scenario_guides/virt_guides
+   
 .. toctree::
    :maxdepth: 1
    :caption: Other Tools and References
